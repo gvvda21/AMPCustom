@@ -1,14 +1,13 @@
 [
     {
         "UpdateStageName": "",
-        "UpdateSourcePlatform": "Linux",
+        "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "205",
         "UpdateSourceArgs": "205",
         "UpdateSourceVersion": "Public",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
-        "ForceDownloadPlatform": "Linux",
         "DeleteAfterExtract": true,
         "OneShot": false
     }
