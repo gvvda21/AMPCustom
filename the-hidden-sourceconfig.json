@@ -79,7 +79,7 @@
         "DefaultValue":"0.2",
         "Placeholder":"0.2",
         "EnumValues":{}
-    }
+    },
 	{
         "DisplayName":"Server Region",
         "Category":"The Hidden Server Settings",
@@ -141,11 +141,11 @@
         "DefaultValue":"2",
         "EnumValues":{
             "1":"1",
-            "2":"2"
+            "2":"2",
 			"3":"3",
-            "4":"4"
+            "4":"4",
 			"5":"5",
-            "6":"6"
+            "6":"6",
 			"7":"7",
             "8":"8"
         }
@@ -245,7 +245,7 @@
         "DefaultValue":"0",
         "EnumValues":{
             "Damage":"0",
-            "Killer":"1"
+            "Killer":"1",
 			"Random":"2"
         }
     },
