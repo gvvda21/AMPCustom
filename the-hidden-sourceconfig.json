@@ -1,4 +1,15 @@
 [
+	{
+        "DisplayName":"Server Name",
+        "Category":"The Hidden Server Server Settings",
+        "Description":"Sets the name of the server that appears in the server list",
+        "Keywords":"server,name,hostname",
+        "FieldName":"hostname",
+        "InputType":"text",
+        "ParamFieldName":"hostname",
+        "DefaultValue":"AMP Powered The Hidden Source Server",
+        "EnumValues":{}
+    },
    {
         "DisplayName":"RCON Password",
         "Category":"The Hidden Server Server Settings",
