@@ -132,7 +132,7 @@
     },
 	{
         "DisplayName":"Max rounds in a row as Hidden",
-        "Category":"The Hidden Round & Time Settings",
+        "Category":"The Hidden Round and Time Settings",
         "Description":"The amount of rounds in a row a player can be the Hidden before being forcibly swapped to the IRIS",
         "Keywords":"hdn_hiddenrounds,rounds,hidden",
         "FieldName":"hdn_hiddenrounds",
@@ -152,7 +152,7 @@
     },
 	{
         "DisplayName":"New map wait time",
-        "Category":"The Hidden Round & Time Settings",
+        "Category":"The Hidden Round and Time Settings",
         "Description":"Time in seconds before the first round begins after a map change.",
         "Keywords":"time,wait,map,hdn_jointime",
         "FieldName":"hdn_jointimet",
@@ -166,7 +166,7 @@
     },
 	{
         "DisplayName":"Taunts Cooldown",
-        "Category":"The Hidden Round & Time Settings",
+        "Category":"The Hidden Round and Time Settings",
         "Description":"Time in seconds before you can use radio messages or taunts again after doing one.",
         "Keywords":"radio,taunt,hdn_radio_limit",
         "FieldName":"hdn_radio_limit",
@@ -180,7 +180,7 @@
     },
 	{
         "DisplayName":"Round Time",
-        "Category":"The Hidden Round & Time Settings",
+        "Category":"The Hidden Round and Time Settings",
         "Description":"Time in seconds for how long one round lasts. 360 = 6 minutes",
         "Keywords":"round,time, mp_roundtime",
         "FieldName":"mp_roundtime",
@@ -194,7 +194,7 @@
     },
 	{
         "DisplayName":"Map Time Limit",
-        "Category":"The Hidden Round & Time Settings",
+        "Category":"The Hidden Round and Time Settings",
         "Description":"Time in minutes before the server changes to the next map in mapcycle.txt on the next round.",
         "Keywords":"map,limit,time, mp_timelimit",
         "FieldName":"mp_timelimit",
