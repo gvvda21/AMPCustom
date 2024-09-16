@@ -12,7 +12,7 @@
     },
    {
         "DisplayName":"RCON Password",
-        "Category":"The Hidden Server Server Settings",
+        "Category":"The Hidden Server Settings",
         "Description":"",
         "Keywords":"",
         "FieldName":"$RemoteAdminPassword",
