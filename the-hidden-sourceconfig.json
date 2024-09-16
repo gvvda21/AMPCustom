@@ -13,12 +13,23 @@
    {
         "DisplayName":"RCON Password",
         "Category":"The Hidden Server Settings",
-        "Description":"",
-        "Keywords":"",
+        "Description":"RCON Password",
+        "Keywords":"rcon,password",
         "FieldName":"$RemoteAdminPassword",
         "InputType":"text",
         "Hidden":true,
         "ParamFieldName":"rcon_password",
+        "EnumValues":{}
+    },
+	{
+        "DisplayName":"Server Password",
+        "Category":"The Hidden Server Settings",
+        "Description":"Server Password",
+        "Keywords":"password",
+        "FieldName":"$RemoteAdminPassword",
+        "InputType":"text",
+        "Hidden":true,
+        "ParamFieldName":"password",
         "EnumValues":{}
     },
 	{
