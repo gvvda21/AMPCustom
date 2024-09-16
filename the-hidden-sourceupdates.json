@@ -1,18 +1,5 @@
 [
     {
-        "UpdateStageName": "",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "SteamCMD",
-        "UpdateSourceData": "205",
-        "UpdateSourceArgs": "205",
-        "UpdateSourceVersion": "Public",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "ForceDownloadPlatform": "Windows",
-        "DeleteAfterExtract": true,
-        "OneShot": true
-    },
-    {
         "UpdateStageName":"Server.cfg Template File Download",
         "UpdateSourcePlatform":"All",
         "UpdateSource":"FetchURL",
