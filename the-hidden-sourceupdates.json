@@ -4,7 +4,6 @@
         "UpdateSourcePlatform":"All",
         "UpdateSource":"SteamCMD",
         "UpdateSourceData":"205",
-        "UpdateSourceArgs":"205",
         "ForceDownloadPlatform":"Windows"
     },
     {
