@@ -3,12 +3,12 @@
         "UpdateStageName": "",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
-        "UpdateSourceData": "205",
-        "UpdateSourceArgs": "205",
+        "UpdateSourceData": "215",
+        "UpdateSourceArgs": "215",
         "UpdateSourceVersion": "Public",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
-        "OneShot": false
+        "OneShot": true
     }
 ]
