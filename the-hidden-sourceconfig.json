@@ -17,7 +17,7 @@
         "Keywords":"server,name,hostname",
         "FieldName":"hostname",
         "InputType":"text",
-        "ParamFieldName":"hostname",
+        "ParamFieldName":"$hostname",
         "DefaultValue":"AMP Powered The Hidden Server",
         "EnumValues":{}
     },
