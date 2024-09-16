@@ -10,6 +10,17 @@
         "ParamFieldName":"rcon_password",
         "EnumValues":{}
     },
+	 {
+        "DisplayName":"Server Name",
+        "Category":"The Hidden Server Settings",
+        "Description":"Sets the name of the server that appears in the server list",
+        "Keywords":"server,name,hostname",
+        "FieldName":"hostname",
+        "InputType":"text",
+        "ParamFieldName":"hostname",
+        "DefaultValue":"AMP Powered The Hidden Server",
+        "EnumValues":{}
+    },
 	{
         "DisplayName":"Player Limit",
         "Category":"The Hidden Server Settings",
