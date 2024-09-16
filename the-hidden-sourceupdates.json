@@ -1,9 +1,17 @@
 [
+      {
+        "UpdateStageName":"SteamCMD Server Download",
+        "UpdateSourcePlatform":"All",
+        "UpdateSource":"SteamCMD",
+        "UpdateSourceData":"205",
+        "UpdateSourceArgs":"205",
+        "ForceDownloadPlatform":"Windows"
+    },
     {
         "UpdateStageName":"Server.cfg Template File Download",
         "UpdateSourcePlatform":"All",
         "UpdateSource":"FetchURL",
-        "UpdateSourceData":"https://raw.githubusercontent.com/gvvda21/AMPCustom/main/the-hidden-sourceserver.cfg",
+        "UpdateSourceData":"https://raw.githubusercontent.com/gvvda21/AMPCustom/main/alien-swarm-reactive-dropserver.cfg",
         "UpdateSourceArgs":"AMP_server.cfg",
         "UpdateSourceTarget":"{{$FullRootDir}}",
         "OverwriteExistingFiles":true
