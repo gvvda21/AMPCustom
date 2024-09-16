@@ -8,7 +8,17 @@
         "UpdateSourceVersion": "Public",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
+        "ForceDownloadPlatform": "Windows",
         "DeleteAfterExtract": true,
         "OneShot": true
+    },
+    {
+        "UpdateStageName": "",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "StartApplication",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
     }
 ]
