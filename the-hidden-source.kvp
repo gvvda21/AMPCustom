@@ -75,6 +75,7 @@ Meta.ConfigRoot=the-hidden-source.kvp
 App.RootDir=./the-hidden-source/
 Meta.DisplayImageSource=steam:205
 App.BaseDirectory=./the-hidden-source/205/
+App.MonitorChildProcessName=^.*srcds\.exe -game hidden.*-port 25566.*$
 App.WorkingDir=205
 App.ExecutableWin=205\srcds.exe
 App.ExecutableLinux=/usr/bin/wine
