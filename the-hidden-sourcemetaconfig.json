@@ -1,1 +1,8 @@
-[]
+[
+    {
+        "ConfigFile":"hidden/cfg/server.cfg",
+        "AutoMap":true,
+        "ConfigType":"template",
+        "ConfigFileTemplate":"the-hidden-source/AMP_server.cfg"
+    }
+]

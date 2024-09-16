@@ -1,1 +1,322 @@
-[]
+[
+   {
+        "DisplayName":"RCON Password",
+        "Category":"The Hidden Server Server Settings",
+        "Description":"",
+        "Keywords":"",
+        "FieldName":"$RemoteAdminPassword",
+        "InputType":"text",
+        "Hidden":true,
+        "ParamFieldName":"rcon_password",
+        "EnumValues":{}
+    },
+	{
+        "DisplayName":"Player Limit",
+        "Category":"The Hidden Server Settings",
+        "Description":"Sets the maximum number of players allowed on the server at one time",
+        "Keywords":"max,players,limit,maxplayers",
+        "FieldName":"$MaxUsers",
+        "InputType":"number",
+        "MinValue":"1",
+        "MaxValue":"9",
+        "ParamFieldName":"maxplayers",
+        "DefaultValue":"9",
+        "Placeholder":"9",
+        "Suffix":"players",
+        "EnumValues":{}
+    },
+	 {
+        "DisplayName":"Allow Download From Server",
+        "Category":"The Hidden Server Settings",
+        "Description":"If set, clients will be allowed to download content from the server (maps, sprays and related)",
+        "Keywords":"allow,download,content,maps,sv_allowdownload",
+        "FieldName":"sv_allowdownload",
+        "InputType":"checkbox",
+        "ParamFieldName":"sv_allowdownload",
+        "DefaultValue":"1",
+        "EnumValues":{
+            "False":"0",
+            "True":"1"
+        }
+    },
+	 {
+        "DisplayName":"Allow Upload From Server",
+        "Category":"The Hidden Server Settings",
+        "Description":"If set, clients will be allowed to upload content to the server (sprays and related)",
+        "Keywords":"allow,upload,content,spray,sv_allowupload",
+        "FieldName":"sv_allowdownload",
+        "InputType":"checkbox",
+        "ParamFieldName":"sv_allowdownload",
+        "DefaultValue":"1",
+        "EnumValues":{
+            "False":"0",
+            "True":"1"
+        }
+    },
+	 {
+        "DisplayName":"Toggle lag compensation.",
+        "Category":"The Hidden Server Settings",
+        "Description":"Toggles lag compensation.",
+        "Keywords":"lag",
+        "FieldName":"sv_unlag",
+        "InputType":"checkbox",
+        "ParamFieldName":"sv_unlag",
+        "DefaultValue":"1",
+        "EnumValues":{
+            "False":"0",
+            "True":"1"
+        }
+    },
+	{
+        "DisplayName":"Maximum lag compensation given in seconds.",
+        "Category":"ASRD SourceTV Settings",
+        "Description":"Sets the maximum lag compensation given in seconds.",
+        "Keywords":"lag",
+        "FieldName":"tv_maxunlag",
+        "InputType":"number",
+        "MinValue":"0",
+        "ParamFieldName":"tv_maxunlag",
+        "DefaultValue":"0.2",
+        "Placeholder":"0.2",
+        "EnumValues":{}
+    }
+	{
+        "DisplayName":"Server Region",
+        "Category":"The Hidden Server Settings",
+        "Description":"Sets the server region shown in the server browser",
+        "Keywords":"server,region,sv_region",
+        "FieldName":"sv_region",
+        "InputType":"enum",
+        "ParamFieldName":"sv_region",
+        "DefaultValue":"-1",
+        "EnumValues":{
+            "-1":"No region",
+            "0":"East Coast US",
+            "1":"West Coast US",
+            "2":"South America",
+            "3":"Europe",
+            "4":"Asia",
+            "5":"Australia",
+            "6":"Middle East",
+            "7":"Africa",
+            "255":"World"
+        }
+    },
+	 {
+        "DisplayName":"Toggle Voice",
+        "Category":"The Hidden Voice Settings",
+        "Description":"Toggles if the voice chat is enabled on the server",
+        "Keywords":"voice,sv_voiceenable",
+        "FieldName":"sv_voiceenable",
+        "InputType":"checkbox",
+        "ParamFieldName":"sv_voiceenable",
+        "DefaultValue":"1",
+        "EnumValues":{
+            "False":"0",
+            "True":"1"
+        }
+    },
+	{
+        "DisplayName":"Toggle AllTalk",
+        "Category":"The Hidden Voice Settings",
+        "Description":"Toggles if players can hear the enemy team in voice chat, or if the Hidden can hear the IRIS and vice versa",
+        "Keywords":"voice,sv_alltalk,alltalk",
+        "FieldName":"sv_alltalk",
+        "InputType":"checkbox",
+        "ParamFieldName":"sv_alltalk",
+        "DefaultValue":"1",
+        "EnumValues":{
+            "False":"0",
+            "True":"1"
+        }
+    },
+	{
+        "DisplayName":"Max rounds in a row as Hidden",
+        "Category":"The Hidden Round & Time Settings",
+        "Description":"The amount of rounds in a row a player can be the Hidden before being forcibly swapped to the IRIS",
+        "Keywords":"hdn_hiddenrounds,rounds,hidden",
+        "FieldName":"hdn_hiddenrounds",
+        "InputType":"checkbox",
+        "ParamFieldName":"hdn_hiddenrounds",
+        "DefaultValue":"2",
+        "EnumValues":{
+            "1":"1",
+            "2":"2"
+			"3":"3",
+            "4":"4"
+			"5":"5",
+            "6":"6"
+			"7":"7",
+            "8":"8"
+        }
+    },
+	{
+        "DisplayName":"New map wait time",
+        "Category":"The Hidden Round & Time Settings",
+        "Description":"Time in seconds before the first round begins after a map change.",
+        "Keywords":"time,wait,map,hdn_jointime",
+        "FieldName":"hdn_jointimet",
+        "InputType":"number",
+        "MinValue":"0",
+        "ParamFieldName":"hdn_jointime",
+        "DefaultValue":"30",
+        "Placeholder":"30",
+        "Suffix":"seconds",
+        "EnumValues":{}
+    },
+	{
+        "DisplayName":"Taunts Cooldown",
+        "Category":"The Hidden Round & Time Settings",
+        "Description":"Time in seconds before you can use radio messages or taunts again after doing one.",
+        "Keywords":"radio,taunt,hdn_radio_limit",
+        "FieldName":"hdn_radio_limit",
+        "InputType":"number",
+        "MinValue":"0",
+        "ParamFieldName":"hdn_radio_limit",
+        "DefaultValue":"3",
+        "Placeholder":"3",
+        "Suffix":"seconds",
+        "EnumValues":{}
+    },
+	{
+        "DisplayName":"Round Time",
+        "Category":"The Hidden Round & Time Settings",
+        "Description":"Time in seconds for how long one round lasts. 360 = 6 minutes",
+        "Keywords":"round,time, mp_roundtime",
+        "FieldName":"mp_roundtime",
+        "InputType":"number",
+        "MinValue":"360",
+        "ParamFieldName":"mp_roundtime",
+        "DefaultValue":"360",
+        "Placeholder":"360",
+        "Suffix":"seconds",
+        "EnumValues":{}
+    },
+	{
+        "DisplayName":"Map Time Limit",
+        "Category":"The Hidden Round & Time Settings",
+        "Description":"Time in minutes before the server changes to the next map in mapcycle.txt on the next round.",
+        "Keywords":"map,limit,time, mp_timelimit",
+        "FieldName":"mp_timelimit",
+        "InputType":"number",
+        "MinValue":"5",
+        "ParamFieldName":"mp_timelimit",
+        "DefaultValue":"30",
+        "Placeholder":"30",
+        "Suffix":"minutes",
+        "EnumValues":{}
+    },
+	{
+        "DisplayName":"Toggle the Hidden Kills",
+        "Category":"The Hidden Gameplay Settings",
+        "Description":"Toggles if the Hidden's kills are shown in the killfeed.",
+        "Keywords":"hdn_deathnotices,death,hidden",
+        "FieldName":"hdn_deathnotices",
+        "InputType":"checkbox",
+        "ParamFieldName":"hdn_deathnotices",
+        "DefaultValue":"0",
+        "EnumValues":{
+            "False":"0",
+            "True":"1"
+        }
+    },
+	{
+        "DisplayName":"Limit Bombs",
+        "Category":"The Hidden Gameplay Settings",
+        "Description":"Toggles if the Hidden's pipebombs are scaled with the IRIS player count. (0 = Three Pipebombs | 1 = Scaled Pipebombs)",
+        "Keywords":"hdn_limitbombs,hidden,bombs",
+        "FieldName":"hdn_limitbombs",
+        "InputType":"checkbox",
+        "ParamFieldName":"hdn_limitbombs",
+        "DefaultValue":"1",
+        "EnumValues":{
+            "False":"0",
+            "True":"1"
+        }
+    },
+	{
+        "DisplayName":"The Hidden Selection Method",
+        "Category":"The Hidden Gameplay Settings",
+        "Description":"Changes how the Hidden is selected. (0 = Damage dealt in total becomes percent chance (Weighted) | 1 = Hidden's Killer | 2 = Random)",
+        "Keywords":"hdn_selectmethod,hidden,select,method",
+        "FieldName":"hdn_selectmethod",
+        "InputType":"checkbox",
+        "ParamFieldName":"hdn_selectmethod",
+        "DefaultValue":"0",
+        "EnumValues":{
+            "Damage":"0",
+            "Killer":"1"
+			"Random":"2"
+        }
+    },
+	{
+        "DisplayName":"The Hidden Stamina Drain",
+        "Category":"The Hidden Gameplay Settings",
+        "Description":"Changes how much your stamina drains per second as the Hidden. -0.5 is about half. Can be changed to 0 or a positive number",
+        "Keywords":"hdn_staminadrain,stamina,hidden",
+        "FieldName":"hdn_staminadrain",
+        "InputType":"number",
+        "MinValue":"0",
+        "ParamFieldName":"hdn_staminadrain",
+        "DefaultValue":"0",
+        "Placeholder":"0",
+        "EnumValues":{}
+    },
+	{
+        "DisplayName":"Friendly Fire",
+        "Category":"The Hidden Gameplay Settings",
+        "Description":"Toggles friendly fire for the IRIS",
+        "Keywords":"mp_friendlyfire,friendly,fire,iris",
+        "FieldName":"mp_friendlyfire",
+        "InputType":"checkbox",
+        "ParamFieldName":"mp_friendlyfire",
+        "DefaultValue":"1",
+        "EnumValues":{
+            "False":"0",
+            "True":"1"
+        }
+    },
+	{
+        "DisplayName":"Toggle Pigstick",
+        "Category":"The Hidden Gameplay Settings",
+        "Description":"Toggles Pigstick, the one-hit kill attack performed by the Hidden.",
+        "Keywords":"sv_pigstick,weapon,pigstick,hidden",
+        "FieldName":"sv_pigstick",
+        "InputType":"checkbox",
+        "ParamFieldName":"sv_pigstick",
+        "DefaultValue":"1",
+        "EnumValues":{
+            "False":"0",
+            "True":"1"
+        }
+    },
+	{
+        "DisplayName":"The Hidden Respawn Time",
+        "Category":"The Hidden Overrun Gamemode Settings",
+        "Description":"Time in seconds for a Hidden to respawn.",
+        "Keywords":"respawn,time,hdn_deathwait,hidden",
+        "FieldName":"hdn_deathwait",
+        "InputType":"number",
+        "MinValue":"0",
+        "ParamFieldName":"hdn_deathwait",
+        "DefaultValue":"10",
+        "Placeholder":"10",
+        "Suffix":"seconds",
+        "EnumValues":{}
+    },
+	{
+        "DisplayName":"Win Timer",
+        "Category":"The Hidden Overrun Gamemode Settings",
+        "Description":"Time in seconds for the last IRIS member standing to win.",
+        "Keywords":"round,time, mp_hdn_survivaltime",
+        "FieldName":"hdn_survivaltime",
+        "InputType":"number",
+        "MinValue":"20",
+        "ParamFieldName":"hdn_survivaltime",
+        "DefaultValue":"20",
+        "Placeholder":"20",
+        "Suffix":"seconds",
+        "EnumValues":{}
+    },
+
+]
