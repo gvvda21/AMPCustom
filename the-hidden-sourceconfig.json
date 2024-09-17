@@ -10,15 +10,16 @@
         "ParamFieldName":"rcon_password",
         "EnumValues":{}
     },
-	 {
+	{
         "DisplayName":"Server Name",
         "Category":"The Hidden Server Settings",
-        "Description":"Sets the name of the server that appears in the server list",
-        "Keywords":"server,name,hostname",
-        "FieldName":"hostname",
+        "Description":"Sets the visible server name",
+        "Keywords":"hostname,name",
+        "FieldName":"$Hostname",
         "InputType":"text",
-        "ParamFieldName":"$hostname",
+        "ParamFieldName":"hostname",
         "DefaultValue":"AMP Powered The Hidden Server",
+        "Placeholder":"AMP Powered The Hidden Server",
         "EnumValues":{}
     },
 	{

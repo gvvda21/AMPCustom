@@ -1,21 +1,14 @@
 [
     {
         "Protocol": "Both",
-        "Port": 25566,
+        "Port": 27005,
         "Ref": "ServerPort",
         "Name": "Game and RCON Port",
         "Description": "Port for game and RCON traffic"
     },
     {
         "Protocol": "UDP",
-        "Port": 25567,
-        "Ref": "SourceTVPort",
-        "Name": "SourceTV Port",
-        "Description": "Port for SourceTV traffic"
-    },
-    {
-        "Protocol": "UDP",
-        "Port": 25568,
+        "Port": 27015,
         "Ref": "ClientPort",
         "Name": "Client Port",
         "Description": "Port for client traffic"
