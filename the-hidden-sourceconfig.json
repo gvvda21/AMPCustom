@@ -12,16 +12,6 @@
         "EnumValues":{}
     },
 	{
-        "DisplayName":"RCON Password",
-        "Category":"The Hidden Server Settings",
-        "Description":"RCON Password",
-        "Keywords":"rcon,password",
-        "FieldName":"$RemoteAdminPassword",
-        "InputType":"text",
-        "ParamFieldName":"rcon_password",
-        "EnumValues":{}
-    },
-	{
         "DisplayName":"Initial Map",
         "Category":"The Hidden Server Settings",
         "Description":"Sets the map to start the server with. If \"Custom\" is selected, Custom Initial Map must also be specified",
