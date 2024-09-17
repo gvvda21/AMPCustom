@@ -1,15 +1,4 @@
 [
-   {
-        "DisplayName":"RCON Password",
-        "Category":"The Hidden Server Settings",
-        "Description":"RCON Password",
-        "Keywords":"rcon,password",
-        "FieldName":"$RemoteAdminPassword",
-        "InputType":"text",
-        "Hidden":true,
-        "ParamFieldName":"rcon_password",
-        "EnumValues":{}
-    },
 	{
         "DisplayName":"Server Name",
         "Category":"The Hidden Server Settings",
@@ -23,18 +12,14 @@
         "EnumValues":{}
     },
 	{
-        "DisplayName":"Hide Server From The Browser",
+        "DisplayName":"RCON Password",
         "Category":"The Hidden Server Settings",
-        "Description":"Toggles server visibility in the game browser",
-        "Keywords":"visibility,online,mode,offline,nomaster",
-        "FieldName":"Visibility",
-		"ParamFieldName":"Visibility",
-        "InputType":"checkbox",
-		"DefaultValue":"nomaster",
-        "EnumValues":{
-            "False":"",
-            "True":"nomaster"
-        }
+        "Description":"RCON Password",
+        "Keywords":"rcon,password",
+        "FieldName":"$RemoteAdminPassword",
+        "InputType":"text",
+        "ParamFieldName":"rcon_password",
+        "EnumValues":{}
     },
 	{
         "DisplayName":"Initial Map",
@@ -141,6 +126,28 @@
         }
     },
 	{
+        "DisplayName":"Server Region",
+        "Category":"The Hidden Server Settings",
+        "Description":"Sets the server region shown in the server browser",
+        "Keywords":"server,region,sv_region",
+        "FieldName":"sv_region",
+        "InputType":"enum",
+        "ParamFieldName":"sv_region",
+        "DefaultValue":"-1",
+        "EnumValues":{
+            "-1":"No region",
+            "0":"East Coast US",
+            "1":"West Coast US",
+            "2":"South America",
+            "3":"Europe",
+            "4":"Asia",
+            "5":"Australia",
+            "6":"Middle East",
+            "7":"Africa",
+            "255":"World"
+        }
+    },
+	{
         "DisplayName":"Additional Command Line Parameters",
         "Category":"The Hidden Server Settings",
         "Description":"Specifies additional command line parameters (anything that begins with a -) that are not otherwise set by AMP. Use with care",
@@ -149,6 +156,7 @@
         "InputType":"text",
         "ParamFieldName":"CustomParameters",
         "DefaultValue":"",
+		"Placeholder":"-nomaster",
         "EnumValues":{}
     },
     {
@@ -163,7 +171,7 @@
         "Placeholder":"+sv_gravity \"500\"",
         "EnumValues":{}
     },
-	 {
+	{
         "DisplayName":"Additional Server Settings",
         "Category":"The Hidden Server Settings",
         "Description":"Specifies additional settings to include in \"server.cfg\" that are not otherwise set by AMP. One setting per line",
@@ -175,7 +183,7 @@
         "DefaultValue":"",
         "EnumValues":{}
     },
-	 {
+	{
         "DisplayName":"Custom Initial Map",
         "Category":"The Hidden Server Settings",
         "Description":"Sets a custom map to use for the Initial Map, if \"Custom\" is selected",
@@ -201,7 +209,7 @@
         "Suffix":"players",
         "EnumValues":{}
     },
-	 {
+	{
         "DisplayName":"Allow Download From Server",
         "Category":"The Hidden Server Settings",
         "Description":"If set, clients will be allowed to download content from the server (maps, sprays and related)",
@@ -215,7 +223,7 @@
             "True":"1"
         }
     },
-	 {
+	{
         "DisplayName":"Allow Upload To The Server",
         "Category":"The Hidden Server Settings",
         "Description":"If set, clients will be allowed to upload content to the server (sprays and related)",
@@ -229,7 +237,7 @@
             "True":"1"
         }
     },
-	 {
+	{
         "DisplayName":"Toggle lag compensation.",
         "Category":"The Hidden Server Settings",
         "Description":"Toggles lag compensation.",
@@ -257,28 +265,6 @@
         "EnumValues":{}
     },
 	{
-        "DisplayName":"Server Region",
-        "Category":"The Hidden Server Settings",
-        "Description":"Sets the server region shown in the server browser",
-        "Keywords":"server,region,sv_region",
-        "FieldName":"sv_region",
-        "InputType":"enum",
-        "ParamFieldName":"sv_region",
-        "DefaultValue":"-1",
-        "EnumValues":{
-            "-1":"No region",
-            "0":"East Coast US",
-            "1":"West Coast US",
-            "2":"South America",
-            "3":"Europe",
-            "4":"Asia",
-            "5":"Australia",
-            "6":"Middle East",
-            "7":"Africa",
-            "255":"World"
-        }
-    },
-	 {
         "DisplayName":"Toggle Voice",
         "Category":"The Hidden Voice Settings",
         "Description":"Toggles if the voice chat is enabled on the server",
@@ -493,6 +479,6 @@
         "Placeholder":"20",
         "Suffix":"seconds",
         "EnumValues":{}
-    },
+    }
 
 ]
