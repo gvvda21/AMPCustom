@@ -23,6 +23,19 @@
         "EnumValues":{}
     },
 	{
+        "DisplayName":"Hide Server From The Browser",
+        "Category":"The Hidden Server Settings",
+        "Description":"Toggles server visibility in the game browser",
+        "Keywords":"visibility,online,mode,offline,nomaster",
+        "FieldName":"$Visibility",
+        "InputType":"checkbox",
+		"DefaultValue":"-nomaster",
+        "EnumValues":{
+            "False":"",
+            "True":"-nomaster"
+        }
+    },
+	{
         "DisplayName":"Player Limit",
         "Category":"The Hidden Server Settings",
         "Description":"Sets the maximum number of players allowed on the server at one time",
@@ -148,7 +161,7 @@
         "Description":"The amount of rounds in a row a player can be the Hidden before being forcibly swapped to the IRIS",
         "Keywords":"hdn_hiddenrounds,rounds,hidden",
         "FieldName":"hdn_hiddenrounds",
-        "InputType":"checkbox",
+        "InputType":"enum",
         "ParamFieldName":"hdn_hiddenrounds",
         "DefaultValue":"2",
         "EnumValues":{
@@ -252,7 +265,7 @@
         "Description":"Changes how the Hidden is selected. (0 = Damage dealt in total becomes percent chance (Weighted) | 1 = Hidden's Killer | 2 = Random)",
         "Keywords":"hdn_selectmethod,hidden,select,method",
         "FieldName":"hdn_selectmethod",
-        "InputType":"checkbox",
+        "InputType":"enum",
         "ParamFieldName":"hdn_selectmethod",
         "DefaultValue":"0",
         "EnumValues":{
