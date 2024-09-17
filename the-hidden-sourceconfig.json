@@ -28,6 +28,7 @@
         "Description":"Toggles server visibility in the game browser",
         "Keywords":"visibility,online,mode,offline,nomaster",
         "FieldName":"$Visibility",
+		"ParamFieldName":"$Visibility",
         "InputType":"checkbox",
 		"DefaultValue":"-nomaster",
         "EnumValues":{
@@ -65,13 +66,13 @@
         }
     },
 	 {
-        "DisplayName":"Allow Upload From Server",
+        "DisplayName":"Allow Upload To The Server",
         "Category":"The Hidden Server Settings",
         "Description":"If set, clients will be allowed to upload content to the server (sprays and related)",
         "Keywords":"allow,upload,content,spray,sv_allowupload",
-        "FieldName":"sv_allowdownload",
+        "FieldName":"sv_allowupload",
         "InputType":"checkbox",
-        "ParamFieldName":"sv_allowdownload",
+        "ParamFieldName":"sv_allowupload",
         "DefaultValue":"1",
         "EnumValues":{
             "False":"0",
